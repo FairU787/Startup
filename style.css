@@ -1,0 +1,314 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    width:100%;
+    height:1000px;
+}
+header nav{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+}
+nav ul{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    text-align: right;
+    
+}
+ul li{
+    width: 100px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+}
+ul li a{ 
+    width: 100px;
+    height: 70px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    top: 23px;
+    color: black;
+}
+ul li:hover{
+    background-color: gray;
+    transition: 0.2s;
+}
+
+main{
+    width:100%;
+    height: auto;
+    margin:0 auto;
+}
+section{
+    width: 100%;
+    height: 900px;
+    text-align: center;
+}
+.logo{
+    background-image: url(Logo/ISung%20logo.png);
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-size: cover;
+    vertical-align: top;
+    position: absolute;
+}
+.logo:hover{
+    background-color: gray;
+    transition: 0.2s;
+}
+.pirma{
+    width:100%;
+    height: 980px;
+    background-image: url(Foto/banckground%20foto.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1px;
+    padding-left: 50px;
+}
+.pirma h1{
+    color: white;
+    margin-top: 270px;
+    font-size: 60px;
+    font-weight: 400;
+}
+.pirma h2{
+    color: white;
+    margin-top: 70px; 
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.pirma div a{
+    display: block;
+    width: 300px;
+    height: 60px;
+    margin-top: 70px;
+    color: black;
+    background-color: darkgray;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-top: 17px;
+    text-align: center;
+}
+
+.pirma div a:hover{
+    background-color: lightgray;
+}
+.section h1, .section h2{
+    font-weight: 400;
+    line-height: 60px;
+}
+.section h1{
+    margin-top: 60px;
+}
+.section h2{
+    font-size: 17px;
+}
+.section div{
+    display: inline-block;
+    height: auto;
+    width: 24%;
+    margin-top: 50px
+}
+.section div img{
+    width: 80px;
+    height: 80px;
+}
+.section div h2{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.section div p{
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.dusection h1{
+    font-weight: 400;
+    line-height: 60px;
+    margin-top: 60px;
+    text-align: justify;
+    margin-left: 20px;
+}
+.pirmas1, .antras2, .trecias3, .ketvirtas4{
+    display: inline-block;
+    height: auto;
+    width: 23%;
+    margin: 10px;
+    box-shadow: 1px 1px 5px black;
+    vertical-align: top;
+}
+.dusection div h2{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.dusection div p{
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 20px;
+    line-height:2;
+    margin-bottom: 20px;
+}
+.dusection .foto2{
+    background-image: url(Foto/Anja%20Doe.jpg);
+}
+.dusection .layer2{
+    width: 100%;
+    height: 300px;
+    background: rgba(104, 107, 110, 0.5);
+}
+.dusection .foto1{
+    background-image: url(Foto/John%20Doe.jpg);
+}
+.dusection .foto3{
+    background-image: url(Foto/Mike%20Ross.jpg);
+}
+.dusection .foto4{
+    background-image: url(Foto/Dan%20Star.jpg); 
+}
+.foto{
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+footer{
+    height: 800px;
+    width: 100%;
+    background-color: black;
+    padding: 1px;
+    text-align: center;
+}
+footer a{
+    background-color: white;
+    display: block;
+    height: 60px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 15px;
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    background-color: darkgray;
+}
+footer img{
+    background-color: white;
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+}
+footer img:hover{
+    background-color: darkgray;
+}
+footer p{
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+}
+.dusection .h2{
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 20px;
+    color: gray;
+}
+.dusection a{
+    display: block;
+    width: 90%;
+    height: 40px;
+    text-decoration: none;
+    background-color: lightgray;
+    margin: 0 auto;
+    color: black;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.dusection a:hover{
+    background-color: darkgray;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+}
+.layer:hover{
+    background: rgba(255, 255, 255, 0.5);
+}
+.tryssection .div{
+    display: inline-block;
+    height: 300px;
+    width: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.micro{
+    background-image: url(Foto/micro.jpg);
+}
+.iphone{
+    background-image:url(Foto/iphone.webp); 
+}
+.drone{
+    background-image: url(Foto/drone.jfif);
+}
+.soundbox{
+    background-image: url(Foto/soundbox.jfif);
+}
+.laptop{
+    background-image: url(Foto/laptop.jpg);
+}
+.camera{
+    background-image: url(Foto/camera.jpg);
+}
+.typewriter{
+    background-image: url(Foto/typewriter.webp);
+}
+.tableturner{
+    background-image: url(Foto/tableturner.jfif);
+}
+.tryssection h1{
+    font-weight: 300;
+    margin-bottom: 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.tryssection h2{
+    font-weight: 300;
+    margin-bottom: 200px;
+    font-size: 20px;
+}
+.tryssection{
+    height: 1100px;
+}
+.street{
+    width: 100%;
+    height: 1200px;
+    background-image: url(Foto/street%20from%20above.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 200px;
+}
